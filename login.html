@@ -8,7 +8,26 @@
 <body>
 
     <main>
-        <form action =""></form>
+        <form action = "index.html" method = "post">
+            <fieldset>
+                <legend>Inicio de sesión</legend>
+
+                <div class = "iniciarSesion">
+                    <label for = "inputEmailUsuario">Usuario: </label>
+                    <input type = "email" name = "inputEmailUsuario" id = "inputEmailUsuario" placeholder = "yourmail@example.com" title = "Ingrese su email" required autofocus>    
+                </div>
+
+                <div class = "iniciarSesion">
+                    <label for = "pass">Password: </label>
+                    <input type = "password" name = "pass" id = "pass" minlength = "8" placeholder = "Ingrese mínimo 8 caracteres" required>
+                </div>
+
+                <button type = "submit">Inicar sesión</button>
+
+
+
+            </fieldset>
+        </form>
     </main>
     
 </body>
