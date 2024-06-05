@@ -1,9 +1,10 @@
 <!DOCTYPE html>
-<html lang = "en">
+<html lang = "es">
 <head>
     <meta charset = "UTF-8">
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel = "stylesheet" href = "./styles/styles-login.css">
 </head>
 <body>
 
@@ -13,16 +14,16 @@
                 <legend>Inicio de sesión</legend>
 
                 <div class = "iniciarSesion">
-                    <label for = "inputEmailUsuario">Usuario: </label>
-                    <input type = "email" name = "inputEmailUsuario" id = "inputEmailUsuario" placeholder = "yourmail@example.com" title = "Ingrese su email" required autofocus>    
+                    <label for = "inputEmailUsuario">Usuario: </label><br>
+                    <input type = "email" name = "inputEmailUsuario" id = "inputEmailUsuario" class = "caja" placeholder = "yourmail@example.com" title = "Ingrese su email" required autofocus>    
                 </div>
 
                 <div class = "iniciarSesion">
-                    <label for = "pass">Password: </label>
-                    <input type = "password" name = "pass" id = "pass" minlength = "8" placeholder = "Ingrese mínimo 8 caracteres" required>
+                    <label for = "pass">Password: </label><br>
+                    <input type = "password" name = "pass" id = "pass" minlength = "8" class = "caja" placeholder = "Ingrese mínimo 8 caracteres" required>
                 </div>
 
-                <button type = "submit">Inicar sesión</button>
+                <button type = "submit" id = "botonEnviar">Iniciar sesión</button>
 
 
 

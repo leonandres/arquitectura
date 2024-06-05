@@ -1,0 +1,10 @@
+.caja{
+    border-style: outset;
+    
+}
+
+#botonEnviar{
+    border-radius: 50%;
+    color: beige;
+    background-color:rgb(9, 76, 247);
+}
