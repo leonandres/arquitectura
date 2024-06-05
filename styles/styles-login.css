@@ -1,10 +1,28 @@
+body{
+    background-position: center;
+    background-image: url('https://source.unsplash.com/1200x1200?gato');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .caja{
     border-style: outset;
-    
+    color: beige;
+    background-color: blue;
 }
 
 #botonEnviar{
-    border-radius: 50%;
+    border-style: none;
+    border: 10px;
+    border-radius: 5%;
     color: beige;
     background-color:rgb(9, 76, 247);
+}
+
+.cambiarColor:hover {
+    background-color:black;/*No funca: 429aff*/
+}
+
+.input:focus {
+    background-color: rgb(137, 142, 142);
 }
