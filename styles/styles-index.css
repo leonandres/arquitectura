@@ -15,6 +15,11 @@
     transition: transform .3s;
 }
 
+.card img{
+    max-width: 100%;
+    height: auto;
+}
+
 .card:hover{
     box-shadow: 5px 5px 5px rgb(0, 0, 0);
     transform: scale(1.1);
