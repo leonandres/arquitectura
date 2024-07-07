@@ -10,19 +10,19 @@ let lugarAntiguo = "Egipto";
 let lugarMedio   = "India";
 let lugarModerno = "Dubai";
 
-let rutaImagenEdificioAntiguo = "https://source.unsplash.com/300x300?pyramid";
-let rutaImagenEdificioMedio   = "https://source.unsplash.com/300x300?building";
+let rutaImagenEdificioAntiguo = "https://picsum.photos/700/400?random";
+let rutaImagenEdificioMedio   = "https://picsum.photos/700/400?random";
 let rutaImagenEdificioModerno = "https://source.unsplash.com/300x300?building";
 
-antiguo.innerHTML = "<img src = 'https://source.unsplash.com/300x300?pyramid'>" +
+antiguo.innerHTML = "<img src = 'https://picsum.photos/400/400?random'/>" +
                     "<h2>" + nombreEdificioAntiguo + "</h2>" + 
                     "<p>" + edadEdificioAntiguo + "</p>" + 
                     "<p>" + lugarAntiguo + "</p>";
-medio.innerHTML = "<img src = 'https://source.unsplash.com/300x300?building'>"
+medio2.innerHTML = "<img src = 'https://picsum.photos/400/400?random'>" +
                   "<h2>" + nombreEdificioEdadMedia + "</h2>" + 
                   "<p>" + edadEdificioMedio + "</p>" +
-                  "<p>" + lugarMedioo + "</p>";
-moderno.innerHTML = "<img src = 'https://source.unsplash.com/300x300?building'>"
+                  "<p>" + lugarMedio + "</p>";
+moderno.innerHTML = "<img src = 'https://picsum.photos/400/400?random'>" +
                     "<h2>" + nombreEdificioModerno + "</h2>" + 
                     "<p>" + edadEdificioModerno + "</p>" +
                     "<p>" + lugarModerno + "</p>";
